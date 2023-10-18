@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+
+        /* Element Selector */
+        div{
+            /* background-color: red; */
+        }
+
+        /* Class Selector */
+        .red{
+            background-color: red;
+        }
+
+        /* Id Selector */
+        #green{
+            background-color: green;
+        }
+
+        /* Chile Selector */
+        div > p {
+            background-color: aqua;
+            color: brown;
+        }
+
+        /* Descendant Selector */
+        div p {
+            background-color: yellow;
+            color: blue;
+        }
+
+        /* Universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector  */
+        a:visited {
+            color: blue;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: slategrey;
+        }
+
+        p:first-child{
+            background-color: blanchedalmond;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+
+    <div class="red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, sit.</div>
+
+    <div id="green">This is another div</div> -->
+
+    <div>
+        <p>This is paragraph inside div</p>
+        <p>This is paragraph inside div sda</p>
+    </div>
+
+    <!-- <div>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus labore facere velit culpa cumque quibusdam nisi. Esse, necessitatibus pariatur accusamus error ducimus, magnam cum animi reprehenderit fuga quae unde possimus.</p>
+        </article>
+    </div> -->
+
+    <!-- <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.amazon.com">Go to Amazon</a> -->
+
+</body>
+</html>

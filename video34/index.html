@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and Clear</title>
+    <style>
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+        }
+        .card {
+            border: 2px solid red;
+        }
+        img {
+            float: left;
+        }
+        .cards :nth-child(3) {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img width="300" src="https://images.pexels.com/photos/163864/santorini-oia-greece-travel-163864.jpeg" alt="">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste consequatur minima neque. Libero explicabo exercitationem labore, quasi, perferendis dolore consequuntur aut officiis dolor totam odit suscipit, laboriosam eum autem.</p>
+        </div>
+        <div class="card">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio perspiciatis perferendis, impedit, reprehenderit pariatur, non cumque ullam accusamus ipsam similique ea voluptate sapiente exercitationem reiciendis dolorum est neque illo ipsa tenetur veniam earum excepturi? Neque dolore et voluptate ratione? Unde perferendis praesentium porro voluptatum eligendi, aliquam officiis a distinctio maxime obcaecati facere aspernatur nesciunt in sit possimus architecto veritatis ratione inventore deserunt iste quia non minus? Quibusdam vero velit blanditiis delectus placeat eligendi enim ex consequatur voluptates voluptate dolor neque consequuntur possimus soluta optio maiores, ut at distinctio libero quo quia non voluptas corporis tempora! Voluptate ea nesciunt voluptates libero doloremque tempore fuga aut vero inventore accusantium asperiores possimus dignissimos optio adipisci magni soluta dicta quam sint consectetur, quos minus fugiat hic error sunt? Doloremque rem reiciendis accusantium minima dolores, et voluptatibus distinctio sunt dignissimos omnis nam aspernatur quidem doloribus ullam natus illo facere, ratione fugit officia nisi unde velit explicabo deserunt. Cumque ipsa saepe aliquid iure, nostrum ut minima! Consectetur eligendi ab optio atque provident? Nemo, inventore sapiente. Amet, itaque nemo! Temporibus, unde velit consequatur iste nisi excepturi! Error, unde laboriosam, inventore, magni odit vitae iusto reprehenderit blanditiis consequatur veritatis porro perferendis. Delectus quod recusandae doloribus vitae excepturi?</p>
+        </div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>
